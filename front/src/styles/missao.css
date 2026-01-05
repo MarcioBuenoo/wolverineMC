@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.container-missao {
+    height: 30rem;
+    width: 100vw;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10vh;
+}
+
+.container-missao h2 {
+    font-size: 5rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    color: #ff0000;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto p {
+    font-size: 1.2rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+    text-align: center;
+}
