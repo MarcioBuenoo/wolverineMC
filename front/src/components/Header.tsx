@@ -3,7 +3,7 @@ import '../styles/header.css'
 export default function Header() {
     return (
         <nav>
-            <a href="">Home</a>
+            <img src="/wolverineMC.png" alt="" />
             <a href="">Missão</a>
             <a href="">Visão</a>
             <a href="">Valores</a>

@@ -2,25 +2,34 @@
 
 nav {
     width: 100vw;
-    height: 5rem;
+    height: 11rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background-color: #272727;
+    background-color: #fff;
 }
 
-header img {
-    height: 4rem;
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
 }
 
 a {
-    color: aliceblue;
+    color: #272727;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-size: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .hidden-button {
     color: red;
+}
+
+a:hover {
+    transform: scale(1.1);
 }
