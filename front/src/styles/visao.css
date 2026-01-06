@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.container-missao {
+.container-visao {
     height: 30rem;
     width: 100vw;
     background-color: #272727;
@@ -10,28 +10,28 @@
     flex-direction: column;
 }
 
-.titulo-missao {
+.titulo-visao {
     display: flex;
-    justify-content: left;
+    justify-content: right;
     align-items: center;
-    padding-left: 10vh;
+    padding-right: 10vh;
 }
 
-.container-missao h2 {
+.container-visao h2 {
     font-size: 5rem;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     color: #ff0000;
 }
 
-.texto-missao {
+.texto-visao {
     display: flex;
-    justify-content: left;
+    justify-content: right;
     align-items: justify;
-    padding-left: 10vh;
+    padding-right: 10vh;
 }
 
-.texto-missao p {
+.texto-visao p {
     font-size: 1.2rem;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 200;

@@ -1,12 +1,12 @@
-import '../styles/missao.css'
+import '../styles/visao.css'
 
-export default function Missao() {
+export default function Visao() {
     return (
-        <div className="container-missao">
-            <div className='titulo-missao'>
-                <h2>Missão</h2>
+        <div className="container-visao">
+            <div className="titulo-visao">
+                <h2>Visão</h2>
             </div>
-            <div className='texto-missao'>
+            <div className="texto-visao">
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever <br /> 
                     since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only <br />
