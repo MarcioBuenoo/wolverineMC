@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.container-visao {
-    height: 50rem;
+.container-valores {
+    height: 40rem;
     width: 100vw;
     background-color: #272727;
     display: flex;
@@ -10,31 +10,23 @@
     flex-direction: column;
 }
 
-.titulo-visao {
+.titulo-valores {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     padding-right: 10vh;
 }
 
-.container-visao h2 {
+.container-valores h2 {
     font-size: 5rem;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     color: #ff0000;
 }
 
-.texto-visao {
+.modals-valores {
     display: flex;
-    justify-content: right;
-    align-items: justify;
-    padding-right: 10vh;
-}
-
-.texto-visao p {
-    font-size: 1.2rem;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 200;
-    color: #ffffff;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
 }
