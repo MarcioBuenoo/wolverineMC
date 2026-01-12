@@ -7,7 +7,7 @@ import Valores from './components/Valores'
 
 function App() {
   return (
-    <div>
+    <div className='index-div'>
       <Header />
       <Introducao />
       <Missao />
