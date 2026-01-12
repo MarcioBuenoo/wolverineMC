@@ -1,0 +1,28 @@
+.introducao-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-image: url('../../public/background01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introducao-titulo{
+    background: linear-gradient(270deg, #ff0000, #ffffffc7, #ff0000);
+    background-size: 800% 800%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 10s ease infinite;
+    font-size: 5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+}
+
+@keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
