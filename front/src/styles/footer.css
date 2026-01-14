@@ -1,0 +1,15 @@
+.container-footer {
+    height: 400px;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acessos-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
