@@ -1,17 +1,17 @@
-.container-missao {
+.container-valores {
     height: 700px;
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     background-color: #272727;
 }
 
-.titulo-missao {
+.titulo-valores {
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3rem;
     font-weight: 400;
@@ -19,22 +19,11 @@
     padding-left: 80px;
 }
 
-.texto-missao {
+.modals-valores {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 40px;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #fff;
-    gap: 19px;
-}
-
-.foto-missao {
-    width: 37vw;
-    height: auto;
-    border-radius: 10px;
-    border: #ff0000 1px solid;
+    gap: 10px;
+    margin-top: 140px;
 }
