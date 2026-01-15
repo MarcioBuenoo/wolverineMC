@@ -17,16 +17,16 @@ export default function Footer() {
             <div className="contatos-footer">
                 <h2 className="contatos-footer-h2">Contatos</h2>
                 <a className="contatos-footer-a" href="">
-                    <img className="contatos-footer-image" src="" alt="" /> Clovis "Cabelo" - Presidente Fundador
+                    <img className="contatos-footer-image" src="../../public/phone.png" alt="" /> Clovis "Cabelo" - Presidente Fundador
                 </a>
                 <a className="contatos-footer-a" href="">
-                    <img className="contatos-footer-image" src="" alt="" /> José "Zezão" - Vice-Presidente
+                    <img className="contatos-footer-image" src="../../public/phone.png" alt="" /> José "Zezão" - Vice-Presidente
                 </a>
                 <a className="contatos-footer-a" href="">
-                    <img className="contatos-footer-image" src="" alt="" /> Márcio "Marcião" - Diretor Regional - Jacareí
+                    <img className="contatos-footer-image" src="../../public/phone.png" alt="" /> Márcio "Marcião" - Diretor Regional - Jacareí
                 </a>
                 <a className="contatos-footer-a" href="">
-                    <img className="contatos-footer-image" src="" alt="" /> Andersons - Diretor Disciplinar
+                    <img className="contatos-footer-image" src="../../public/phone.png" alt="" /> Andersons - Diretor Disciplinar
                 </a>
             </div>
         </div>
