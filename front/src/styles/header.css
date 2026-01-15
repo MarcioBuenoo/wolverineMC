@@ -42,3 +42,17 @@
 .header-buttons-2nd:hover {
     transform: translateY(-5px);
 }
+
+@media screen and (max-width: 395px) {
+    .header-imagem {
+        height: 6rem;
+    }
+
+    .header-buttons {
+        font-size: 1.5rem;
+    }
+
+    .header-buttons-2nd {
+        font-size: 1.5rem;
+    }
+}
