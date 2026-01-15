@@ -40,3 +40,9 @@
     border-radius: 10px;
     border: #ff0000 1px solid;
 }
+
+@media screen and (max-width: 395px){
+    .texto-missao {
+        font-size: 0.9rem;
+    }
+}
