@@ -7,11 +7,19 @@ export default function Valores() {
             <div className="titulo-valores">
                 <h2 className='titulo-valores-h2'>Valores</h2>
             </div>
-            <div className="modals-valores">
-                <Card titulo={'Respeito'} conteudo={'Tratamos todos com dignidade, valorizando a diversidade e promovendo um ambiente inclusivo.'} />
-                <Card titulo={'Irmandade'} conteudo={'Agimos com honestidade e ética em todas as nossas interações, somos uma família.'} />
-                <Card titulo={'Liberdade'} conteudo={'Prezamos pelos direitos individuais, ser livre.'} />
-                <Card titulo={`Solidariedade`} conteudo={'Apoiamos uns aos outros, promovendo um ambiente de cooperação e ajuda mútua.'} />
+            <div className='modals-group'>
+                <div className="modals-valores">
+                    <Card titulo={'Respeito'} conteudo={'Tratamos todos com dignidade, valorizando a diversidade e promovendo um ambiente inclusivo.'} />
+                    <Card titulo={'Irmandade'} conteudo={'Agimos com honestidade e ética em todas as nossas interações, somos uma família.'} />
+                    <Card titulo={'Liberdade'} conteudo={'Prezamos pelos direitos individuais, ser livre.'} />
+                    <Card titulo={`Solidariedade`} conteudo={'Apoiamos uns aos outros, promovendo um ambiente de cooperação e ajuda mútua.'} />
+                </div>
+                <div className="modals-valores-2">
+                    <Card titulo={'Respeito'} conteudo={'Tratamos todos com dignidade, valorizando a diversidade e promovendo um ambiente inclusivo.'} />
+                    <Card titulo={'Irmandade'} conteudo={'Agimos com honestidade e ética em todas as nossas interações, somos uma família.'} />
+                    <Card titulo={'Liberdade'} conteudo={'Prezamos pelos direitos individuais, ser livre.'} />
+                    <Card titulo={`Solidariedade`} conteudo={'Apoiamos uns aos outros, promovendo um ambiente de cooperação e ajuda mútua.'} />
+                </div>
             </div>
         </div>
     )

@@ -45,4 +45,8 @@
     .texto-missao {
         font-size: 0.9rem;
     }
+
+    .foto-missao {
+        display: none;
+    }
 }
