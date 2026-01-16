@@ -44,4 +44,8 @@
     .texto-visao {
         font-size: 0.9rem;
     }
+
+    .foto-visao {
+        display: none;
+    }
 }
